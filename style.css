@@ -92,6 +92,7 @@ header {
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
+    position: relative;
 }
 
 .video-container video {
@@ -147,6 +148,8 @@ header {
   height: 100vh;
   width: 100%;
   background-color: #fafafa;
+  padding: 10px;
+  position: relative;
 }
 .about h1{
   font-size:50px;
@@ -162,4 +165,126 @@ header {
 
 .about h1 span{
   display:inline-block;
+}
+
+.testimonial-overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+.text-testimonial-container{
+  height: 45vh;
+  width: 100%;
+  border-top-left-radius: 10px;
+  font-family: roobertregular;
+  border-top: 2px solid #fff;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.vision {
+  height: 100vh;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+    position: relative;
+}
+.left-vision{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+}
+.vision h1{
+    text-align: start;
+}
+.vision p{
+  width: 60%;
+  text-align: start;
+}
+
+.progress-bar-line{
+  height: 70vh;
+  width: 4px;
+  background-color: rgb(221, 220, 220);
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+
+  
+}
+.progress-bar-line img{
+  height: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.progress-fill{
+  position: absolute;
+  height: 2%;
+  background-color: #61E5C0;
+  width: 100%;
+}
+
+
+.vision-text-container{
+  margin-left: 10%;
+  font-family: roobertregular;
+  position: absolute;
+  opacity: 0;
+}
+
+.vtc1{
+  opacity: 1;
+}
+.vision-text-container h1{
+  margin-bottom: 2%;
+}
+.right-vision{
+  height: 100%;
+  width: 50%;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.image-container{
+  height: 80%;
+  width: 80%;
+  background-color: rgb(48, 116, 176);
+  border-radius: 20px;
+  overflow: hidden;
+ 
+
+}
+ .image-scroll-div{
+  width: 100%;
+}
+.image-scroll-div img{
+    display: block;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.faq{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(207, 192, 192);
 }
